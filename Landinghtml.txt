@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="ViewPage" content="width=device-width, initial-scale=1.0">
+    <title>Medical-Page</title>
+    <link rel="stylesheet" href="Landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+   
+
+</head>
+<body>
+<div class="container">
+    <nav>
+        <img src="images/Img.jpg" class="Logo">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">MedicalList</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="btn"><i class="fa-thin fa-jet-fighter-up"></i> Appointment </button>
+    </nav>
+
+    <div class="content">
+        <h1>Health<br> is Wealth</h1>
+        <p>To use medication effectively, follow these guidelines:</p>
+<p>
+Read and follow the directions on the medicine label carefully.If you don’t understand the directions, ask your doctor, nurse, or pharmacist to explain them to you.
+Keep a list of all the medicines, vitamins, minerals, and herbs you use and share this information with your doctor at your next checkup.
+Take medicines as directed to get the desired result. If instructions state “Take with Food,” follow that guidance.
+</p>
+        <form>
+            <input type="text" placeholder=" Hospital name" length="2">
+            <button type="submit" class="btn">Search</button>
+
+        </form>
+    </div>
+
+        
+    
+</div>
+</body>
+</html>
